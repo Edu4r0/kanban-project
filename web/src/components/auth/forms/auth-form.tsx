@@ -35,7 +35,6 @@ export function LoginForm({
   });
 
   async function onSubmit(values: z.infer<typeof authSchema>) {
-    console.log(values);
     const result = await signin(values);
     if (!result || !result.success) {
       toast.error({

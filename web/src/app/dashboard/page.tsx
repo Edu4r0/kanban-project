@@ -61,7 +61,6 @@ function DashboardPage() {
   useEffect(() => {
     async function fetch() {
       const result = await getTasksMetrics();
-      console.log(result);
       setData(result);
     }
     fetch();

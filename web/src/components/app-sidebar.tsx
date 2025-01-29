@@ -66,7 +66,6 @@ const data = {
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const { user } = useAuth();
   const { tasks } = useTasks()
-  console.log(tasks);
 
   return (
     <Sidebar collapsible="icon" {...props}>
