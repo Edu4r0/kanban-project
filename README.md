@@ -184,7 +184,7 @@ kanban-project/
 
 - **Frontend**: React, Vite, TailwindCSS, Axios,TypeScript.
 - **Backend**: Node.js, Express,Zod.
-- **Base de Datos**: MySQL/PostgreSQL/MongoDB.
+- **Base de Datos**: MongoDB.
 - **Autenticación**: JSON Web Tokens (JWT).
 - **Gráficos**: Recharts.
 
